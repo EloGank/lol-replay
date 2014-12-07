@@ -1,0 +1,25 @@
+{
+   "name": "elogank/lol-replay",
+   "description": "Some dependencies used by other repositories to manage League of Legends replays",
+   "keywords": ["lol", "library", "league of legends", "replay"],
+   "licence": "MIT",
+   "authors": [
+       {
+           "name": "Sylvain Lorinet",
+           "email": "sylvain.lorinet@gmail.com"
+       }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "EloGank\\Replay": "src/"
+        }
+    }
+}
