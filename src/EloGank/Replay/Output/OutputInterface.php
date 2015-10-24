@@ -40,4 +40,20 @@ interface OutputInterface
      * @throws \InvalidArgumentException When unknown output type is given
      */
     public function writeln($messages, $type = self::OUTPUT_TYPE_NORMAL);
+
+    /**
+     * Gets the current verbosity of the output.
+     *
+     * @return int
+     */
+    public function getVerbosity();
+
+    /**
+     * Sets the verbosity of the output.
+     *
+     * @param int $level
+     *
+     * @return void
+     */
+    public function setVerbosity($level);
 }
