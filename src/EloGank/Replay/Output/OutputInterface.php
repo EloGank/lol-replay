@@ -16,12 +16,6 @@ namespace EloGank\Replay\Output;
  */
 interface OutputInterface
 {
-    const VERBOSITY_QUIET        = 0;
-    const VERBOSITY_NORMAL       = 1;
-    const VERBOSITY_VERBOSE      = 2;
-    const VERBOSITY_VERY_VERBOSE = 3;
-    const VERBOSITY_DEBUG        = 4;
-    
     const OUTPUT_TYPE_NORMAL = 0;
     const OUTPUT_TYPE_RAW    = 1;
     const OUTPUT_TYPE_PLAIN  = 2;
